@@ -26,7 +26,7 @@
     "yiisoft/yii2": "~2.0.6",
     "yiisoft/yii2-bootstrap": "~2.0.6",
     "yiisoft/yii2-swiftmailer": "~2.0.6",
-    "yeesoft/yii2-yee-core": "~0.1.0",
+    "yeesoft/yii2-yee-core": "*",
     "yeesoft/yii2-yee-auth": "~0.1.0",
     "yeesoft/yii2-yee-user": "~0.1.0",
     "yeesoft/yii2-yee-settings": "~0.1.0",
@@ -37,7 +37,15 @@
     "yeesoft/yii2-yee-page": "~0.1.0",
     "yeesoft/yii2-yee-seo": "~0.1.0",
     "yeesoft/yii2-comments": "~0.1.0",
-    "yeesoft/yii2-yee-comment": "~0.1.0"
+    "yeesoft/yii2-yee-comment": "~0.1.0",
+    "yeesoft/yee-i18n": "*",
+    "yeesoft/yii2-yee-generator": "~0.1.0",
+    "yeesoft/yii2-lightbox": "~0.1.0",
+    "yeesoft/yii2-yee-eav": "~0.1.0",
+    "yeesoft/yii2-yee-link": "~0.1.0",
+    "yeesoft/yii2-yee-block": "~0.1.0",
+    "yeesoft/yee-theme": "0.1.0",
+    "yeesoft/yii2-multilingual": "~1.0.0"
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "~2.0.5",

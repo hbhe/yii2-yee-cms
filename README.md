@@ -111,3 +111,12 @@ Installation
   7. Configurate your mailer `['components']['mailer']` in `common/config/main-local.php`.
 
 #####Your `Yee CMS` application is installed. Visit your site `mysite.com` or admin panel `mysite.com/admin`, the site should work and message _Congratulations! You have successfully created your Yii-powered application_ should be displayed.
+
+----------------------
+
+5.5 (Add some modules)
+php yii migrate --migrationPath=@vendor/yeesoft/yii2-yee-eav/migrations/
+php yii migrate --migrationPath=@vendor/yeesoft/yii2-yee-link/migrations/
+php yii migrate --migrationPath=@vendor/yeesoft/yii2-yee-block/migrations/
+
+php yii migrate --migrationPath=@vendor/yeesoft/yee-i18n/zh-CN/

@@ -3,7 +3,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+            'dsn' => 'mysql:host=localhost;dbname=yeecms',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
@@ -18,7 +18,8 @@ return [
                 'username' => 'yourname@gmail.com',
                 'password' => 'yourpassword',
                 'port' => '587',
-                'encryption' => 'tls',
+                //'encryption' => 'tls',
+                'encryption' => false,
             ],
             'htmlLayout' => '@vendor/yeesoft/yii2-yee-auth/views/mail/layouts/html',
             'textLayout' => '@vendor/yeesoft/yii2-yee-auth/views/mail/layouts/text',

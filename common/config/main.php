@@ -7,6 +7,10 @@ return [
     'components' => [
         'yee' => [
             'class' => 'yeesoft\Yee',
+            'languages' => [
+                'en-US' => 'English',
+                'zh-CN' => 'Chinese',
+            ]
         ],
         'settings' => [
             'class' => 'yeesoft\components\Settings'
