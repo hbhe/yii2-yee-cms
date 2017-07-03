@@ -115,9 +115,14 @@ Installation
 ----------------------
 ### 增加其它模块
   8.  Add yii2-yee-eav, yii2-yee-link, yii2-yee-block
+    ```
   php yii migrate --migrationPath=@vendor/yeesoft/yii2-yee-eav/migrations/
   php yii migrate --migrationPath=@vendor/yeesoft/yii2-yee-link/migrations/
   php yii migrate --migrationPath=@vendor/yeesoft/yii2-yee-block/migrations/
+    ```
+
 
 ### 增加中文支持
+    ```
   php yii migrate --migrationPath=@vendor/yeesoft/yee-i18n/zh-CN/
+    ```
